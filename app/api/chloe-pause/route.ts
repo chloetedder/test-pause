@@ -20,8 +20,8 @@ export async function POST(request: Request) {
   // }
 
   // const teamId = body.teamId;
-  const chloeTeamId = "team_dgaAS8fMTBKOMjRHVjOzeIy9";
-  const chloeProjId = "prj_JUnrCTHR7HajYMVA7B1bNG7oWoKe";
+  const chloeTeamId = "team_nkS9pV4oV0v5wKo7h5cxeNf2";
+  const chloeProjId = "prj_RB7ExT1WBSIEEGqac6YhNv9YkEZw";
   await fetch(
     `https://api.vercel.com/v1/projects/${chloeProjId}/pause?teamId=${chloeTeamId}`,
     {
