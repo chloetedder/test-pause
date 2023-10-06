@@ -3,7 +3,7 @@ export async function POST(request: Request) {
 
   const teamId = body.teamId;
   await fetch(
-    `https://api.vercel.com/v1/projects/prj_suxaOaYmfhRQAdK5E9wGVzYm9kqn/pause?teamId=${teamId}`,
+    `https://api.vercel.com/v1/projects/prj_suxaOaYmfhRQAdK5E9wGVzYm9kqn/pause?teamId=team_4GKTJqIoaKhD67QvM5qEXe7M`,
     {
       headers: {
         Authorization: `Bearer ${process.env.BEARER_TOKEN}`,
